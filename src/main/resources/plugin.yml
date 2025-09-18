@@ -1,0 +1,8 @@
+name: DeepsWelcomeGift
+main: com.deepdev.welcomegift.WelcomeGift
+version: 1.0.0
+api-version: 1.21
+commands:
+  welcomegift:
+    description: WelcomeGift admin commands
+    usage: /welcomegift <reload|preview>
