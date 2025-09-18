@@ -1,0 +1,98 @@
+rewards:
+  stone_sword:
+    material: STONE_SWORD
+    amount: 1
+    name: "&aStarter Sword"
+    lore:
+      - "&7A basic weapon to survive!"
+    enchantments:
+      - "UNBREAKING:1"
+  stone_pickaxe:
+    material: STONE_PICKAXE
+    amount: 1
+    name: "&aStarter Pickaxe"
+    lore:
+      - "&7Tool for mining!"
+    enchantments:
+      - "UNBREAKING:1"
+  stone_axe:
+    material: STONE_AXE
+    amount: 1
+    name: "&aStarter Axe"
+    lore:
+      - "&7Tool for chopping!"
+    enchantments:
+      - "UNBREAKING:1"
+  stone_shovel:
+    material: STONE_SHOVEL
+    amount: 1
+    name: "&aStarter Shovel"
+    lore:
+      - "&7Tool for digging!"
+    enchantments:
+      - "UNBREAKING:1"
+  stone_hoe:
+    material: STONE_HOE
+    amount: 1
+    name: "&aStarter Hoe"
+    lore:
+      - "&7Tool for farming!"
+    enchantments:
+      - "UNBREAKING:1"
+
+  chain_helmet:
+    material: CHAINMAIL_HELMET
+    amount: 1
+    name: "&aStarter Helmet"
+    enchantments:
+      - "UNBREAKING:1"
+      - "PROTECTION:1"
+  chain_chestplate:
+    material: CHAINMAIL_CHESTPLATE
+    amount: 1
+    name: "&aStarter Chestplate"
+    enchantments:
+      - "UNBREAKING:1"
+      - "PROTECTION:1"
+  chain_leggings:
+    material: CHAINMAIL_LEGGINGS
+    amount: 1
+    name: "&aStarter Leggings"
+    enchantments:
+      - "UNBREAKING:1"
+      - "PROTECTION:1"
+  chain_boots:
+    material: CHAINMAIL_BOOTS
+    amount: 1
+    name: "&aStarter Boots"
+    enchantments:
+      - "UNBREAKING:1"
+      - "PROTECTION:1"
+
+  bread:
+    material: BREAD
+    amount: 32
+    name: "&aStarter Bread"
+    lore:
+      - "&7Your first meal!"
+
+  golden_apple:
+    material: GOLDEN_APPLE
+    amount: 4
+    name: "&6Starter Golden Apple"
+    lore:
+      - "&7For emergencies!"
+
+  shield:
+    material: SHIELD
+    amount: 1
+    name: "&aStarter Shield"
+    lore:
+      - "&7A shield for protection!"
+    enchantments:
+      - "UNBREAKING:1"
+
+messages:
+  reward: "&aYou have received your Starter Kit!"
+  reload: "&aConfig successfully reloaded!"
+  no-permission: "&cYou do not have permission!"
