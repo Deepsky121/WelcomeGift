@@ -2,7 +2,32 @@ name: DeepsWelcomeGift
 main: com.deepdev.welcomegift.WelcomeGift
 version: 1.0.0
 api-version: 1.21
+
+# Plugin permissions
+permissions:
+  welcomegift.admin:
+    description: Grants access to all WelcomeGift admin commands
+    default: op
+    children:
+      welcomegift.reload: true
+      welcomegift.rewards: true
+      welcomegift.reset: true
+  welcomegift.reload:
+    description: Allows usage of /welcomegift reload command
+    default: false
+  welcomegift.rewards:
+    description: Allows usage of /welcomegift rewards command
+    default: false
+  welcomegift.reset:
+    description: Allows usage of /welcomegift reset command
+    default: false
+  welcomegift.user:
+    description: Basic permission to receive welcome gifts
+    default: true
+
+# Command definitions
 commands:
   welcomegift:
-    description: WelcomeGift admin commands
-    usage: /welcomegift <reload|preview>
+    description: WelcomeGift administration commands
+    usage: /welcomegift <reload|rewards|reset>
+    permission: welcomegift.admin
