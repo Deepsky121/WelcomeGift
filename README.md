@@ -16,17 +16,3 @@ Admins can also manually give rewards, reset players’ reward status, and reloa
 - Player data stored in `data.yml`.
 
 ---
-
-## 📂 Project Structure
-src/main/java/com/deepdev/welcomegift/
-├─ WelcomeGift.java
-├─ commands/
-│ └─ WelcomeGiftCommand.java
-├─ listeners/
-│ └─ FirstJoinListener.java
-└─ util/
-└─ ItemBuilder.java
-resources/
-├─ plugin.yml
-├─ config.yml
-└─ data.yml
